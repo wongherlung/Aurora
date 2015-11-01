@@ -11,11 +11,13 @@ export default class Application extends React.Component {
         <Jumbo />
         <Header />
 
-        <main className="row main-body">
-          <Card />
-          <Card />
-          <Card />
-        </main>
+        <div className="container">
+          <main className="row main-body">
+            <Card />
+            <Card />
+            <Card />
+          </main>
+        </div>
       </div>
     </div>;
   }
