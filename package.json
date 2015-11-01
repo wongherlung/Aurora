@@ -19,7 +19,10 @@
     "react": "^0.14.0",
     "react-blur": "^0.2.5",
     "react-dom": "^0.14.0",
-    "react-sticky": "^3.0.0"
+    "react-slick": "^0.8.2",
+    "react-sticky": "^3.0.0",
+    "react-swipe": "^3.0.0",
+    "swipe-js-iso": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
