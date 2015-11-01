@@ -11,7 +11,7 @@ export default class Card extends React.Component {
         });
         return <div className={cardClass}>
             <div className="card-inner-container">
-                IMMA SEAL
+                
             </div>
         </div>;
     }
