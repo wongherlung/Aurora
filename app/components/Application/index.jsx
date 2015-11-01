@@ -1,18 +1,13 @@
 import React from 'react';
 import Header from '../Header';
-
-/**
- * Import locally scoped styles using css-loader
- * See style.sass in this directory.
- *
- * More info: https://github.com/webpack/css-loader#local-scope
- */
+import Jumbo from '../Jumbo';
 import styles from './style';
 
 export default class Application extends React.Component {
   render() {
     return <div className={styles.main}>
       <div className={styles.wrap}>
+        <Jumbo />
         <Header />
 
         <main className={styles.body}>
