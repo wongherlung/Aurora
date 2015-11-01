@@ -16,6 +16,14 @@ export default class Application extends React.Component {
             <Card />
             <Card />
             <Card />
+
+            <Card />
+            <Card />
+            <Card />
+
+            <Card />
+            <Card />
+            <Card />
           </main>
         </div>
       </div>
